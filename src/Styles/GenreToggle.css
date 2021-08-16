@@ -1,0 +1,23 @@
+.toggle-group {
+    display: flex;
+    text-align: center;
+}
+
+.toggle-tab {
+    width: 25%;
+    text-align: center;
+    font-size: 15px;
+    border: 0;
+    padding: 10px 10px;
+    opacity: 0.7;
+    background: white;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+
+.active {
+    border-bottom: 1px solid black;
+    opacity: 1;
+    font-weight: bold;
+}
